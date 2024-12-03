@@ -12,8 +12,8 @@ class TextToSpeech {
       await _flutterTts.setLanguage("en-US");
       await _flutterTts.setPitch(1.0);
       await _flutterTts.speak('Here is your $text screen.');
-    } catch (e) {
-      print('Error: $e');
+    } catch (error) {
+      throw Exception('Error from text to speech : $error');
     }
   }
 }
