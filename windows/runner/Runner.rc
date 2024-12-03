@@ -92,7 +92,7 @@ BEGIN
             VALUE "CompanyName", "com.example" "\0"
             VALUE "FileDescription", "bonga_nami" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "bonga_nami" "\0"
+            VALUE "InternalName", "com.example.ihearyou" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2024 com.example. All rights reserved." "\0"
             VALUE "OriginalFilename", "bonga_nami.exe" "\0"
             VALUE "ProductName", "bonga_nami" "\0"
